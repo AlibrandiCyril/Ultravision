@@ -83,6 +83,21 @@ a:hover {
   align-items: center;
  }
 
+ .section-title2 {
+
+  margin-top: 67px;
+  margin-bottom: 0px;
+  color: black;
+  font-size: 42px;
+  text-align: center;
+ }
+
+ .sub-title { 
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 35px }
+
  .bande-rouge {
 
   margin-top: 10px;
@@ -112,6 +127,42 @@ a:hover {
 
  }
 
+  .boxdroite{
+    background: linear-gradient(#fcce00, transparent) left repeat, url(bitmap.png);
+    justify-content: flex-end;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .boxdroite img {
+    mix-blend-mode: darken; 
+
+    }
+
+
+    .boxgauche {
+      text-align: justify;
+      margin-right: 32px;
+      flex-basis: 0 ;
+      flex-grow: 1;
+    }
+
+    .boxgauche2{
+    background: linear-gradient(#ff6b00, transparent) left repeat, url(bitmap2.png);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    flex-basis: 0;
+  flex-grow: 1;
+  }
+  
+  .boxgauche2 img {
+    mix-blend-mode: darken;
+  }
 
 /**
 * ------
