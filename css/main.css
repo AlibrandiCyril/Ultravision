@@ -5,9 +5,17 @@
 * -------------
 */
 
+
+
 body {
-  /* Default font family and font color */
+  font-family: 'Poppins'
 }
+
+
+
+
+
+
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
@@ -46,6 +54,19 @@ a {
 
 a:hover {
   /* Link color on mouse over */
+}
+
+
+
+.bande-titre {
+  width: 100% ; 
+  height: 130px ; 
+  background-color: #fcce00 ;
+  color: white ; 
+  font-size: 38px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 
