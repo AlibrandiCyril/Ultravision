@@ -83,7 +83,7 @@ a:hover {
   align-items: center;
  }
 
- .section-title2 {
+ .section-titre2 {
 
   margin-top: 67px;
   margin-bottom: 0px;
@@ -92,7 +92,7 @@ a:hover {
   text-align: center;
  }
 
- .sub-title { 
+ .sous-titre { 
   font-weight: bold;
   font-size: 25px;
   text-align: center;
@@ -150,7 +150,7 @@ a:hover {
       flex-grow: 1;
     }
 
-    .boxgauche2{
+     .boxgauche2{
     background: linear-gradient(#ff6b00, transparent) left repeat, url(bitmap2.png);
     justify-content: center;
     display: flex;
@@ -163,6 +163,41 @@ a:hover {
   .boxgauche2 img {
     mix-blend-mode: darken;
   }
+
+
+.box {
+  display: flex;
+}
+
+
+.box2{
+    
+      display:flex;
+      background: linear-gradient(red,transparent)left repeat;
+    }
+
+.box2 p {
+
+  color: white
+}
+
+.box3{
+    
+        display:flex;
+        background: linear-gradient( #b620e0,transparent)left repeat;
+      }
+      .box3 p {
+        color: white;
+      }
+
+ .box4{
+    
+        display:flex;
+        background: linear-gradient( #6236ff,transparent)left repeat;
+      }
+      .box4 p {
+        color: white;
+      }
 
 /**
 * ------
