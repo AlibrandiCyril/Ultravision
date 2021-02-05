@@ -157,6 +157,21 @@ margin-top:64px;
     flex-grow: 1;
   }
 
+  .boxdroite3{ 
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-top: 32px;
+
+   }
+
+.boxdroite3 img { 
+mix-blend-mode: darken; }
+
+
 
     .boxgauche {
       text-align: justify;
@@ -164,6 +179,8 @@ margin-top:64px;
       flex-basis: 0 ;
       flex-grow: 1;
     }
+
+
 
      .boxgauche2{
     background: linear-gradient(#ff6b00, transparent) left repeat, url(bitmap2.png);
