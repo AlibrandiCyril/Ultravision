@@ -258,6 +258,18 @@ display: flex;
     margin-right:32px;
   }
 
+
+
+.bouton { 
+align-content: right;
+border: 2px solid #fcce00;
+padding: 13px;
+border-radius: 15px;
+font-weight: bold;
+color: #fcce00;
+text-decoration: none;
+float: right;
+ }
 /**
 * ------
 * Layout
