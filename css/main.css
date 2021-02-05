@@ -238,6 +238,26 @@ mix-blend-mode: darken; }
         color: white;
       }
 
+
+.bas-de-page {
+
+  background: #231f20;
+}
+
+.ligne { 
+
+display: flex;
+ }
+
+ .element {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-top:32px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right:32px;
+  }
+
 /**
 * ------
 * Layout
