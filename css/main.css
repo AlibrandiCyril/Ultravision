@@ -56,7 +56,7 @@ a:hover {
   /* Link color on mouse over */
 }
 
-
+p{font-size: 16px;}
 
 .bande-titre {
   width: 100% ; 
@@ -96,7 +96,7 @@ a:hover {
   font-weight: bold;
   font-size: 25px;
   text-align: center;
-  margin-bottom: 35px }
+  margin-bottom: 35px ; }
 
   .sous-titre3 { 
 margin-top:64px;
@@ -150,6 +150,13 @@ margin-top:64px;
 
     }
 
+     .boxdroite2 {
+    text-align: justify;
+    margin-right: 32px;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
 
     .boxgauche {
       text-align: justify;
@@ -172,6 +179,13 @@ margin-top:64px;
     mix-blend-mode: darken;
   }
 
+ .boxgauche3{
+      text-align: justify;
+      margin-right: 32px;
+      flex-basis:0;
+      flex-grow:1;
+    
+    }
 
 .box {
   display: flex;
