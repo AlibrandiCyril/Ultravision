@@ -83,7 +83,34 @@ a:hover {
   align-items: center;
  }
 
- .bande-rouge 
+ .bande-rouge {
+
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 35px;
+  background-color: #e02020
+ }
+
+ .bande-violette { 
+
+  margin-top: 10px ; 
+  margin-bottom: 0px;
+  width: 100%;
+  height: 18px;
+  background-color: #b620e0;
+
+ }
+
+ .bande-bleu {
+
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 18px;
+  background-color: #6236ff;
+
+ }
 
 
 /**
