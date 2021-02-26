@@ -17,44 +17,6 @@ body {
 
 
 
-p, li, textarea, label, input, select {
-  /* Default font size and line height */
-}
-
-
-
-h1 {
-   /* Default font, size, and margins */
-}
-
-h2 {
-  /* Default font, size, and margins */
-}
-
-h3 {
-  /* Default font, size, and margins */
-}
-
-h4 {
-  /* Default font, size, and margins */
-}
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
-}
 
 p{font-size: 16px;}
 
@@ -253,20 +215,6 @@ mix-blend-mode: darken; }
   background: #231f20;
 }
 
-.ligne { 
-
-display: flex;
- }
-
- .element {
-    flex-basis: 0;
-    flex-grow: 1;
-    margin-top:32px;
-    margin-bottom: 32px;
-    margin-left: 32px;
-    margin-right:32px;
-
-  }
 
 
 
@@ -369,17 +317,80 @@ border: none; }
 
 
 .end-space { height: 200px; }
-/**
-* ------
-* Layout
-* ------
-*/
 
 
 
 
-/**
-* ----------
-* Components
-* ----------
-*/
+
+
+.game{
+  position:relative;
+  text-align:center;
+}
+
+.img-game{
+max-width:80%;
+}
+
+.game-content{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  font-size:14px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:4%;
+}
+
+.game-content {
+  opacity:0;
+  transform: translateY(10px);
+  transition: 800ms transform ease-in-out, 200ms opacity;
+}
+
+.game:hover .game-content{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.game-title{
+  font-size:32px;
+  font-weight:bold;
+  color:#fcce00;
+  margin-bottom:32px;
+}
+
+.game-description{
+  font-size:16px;
+  color:white;
+}
+
+
+
+/** TEST POUR LE HOVER SUR LES IMAGES **/ 
+
+
+
+.container-releases{
+  background-color:#231f20;
+}
+
+.liste {
+  color:white;
+  font-size:40px;
+  text-align:center;
+  font-weight:bold;
+  padding-top:48px;
+}
+.container-images {
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax 320px);
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-gap:34px;
+  padding:20px;
+}
