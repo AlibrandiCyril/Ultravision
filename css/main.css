@@ -1,3 +1,5 @@
+/** ALIBRANDI CYRIL MSW2V **/
+
 
 body {
   font-family: 'Poppins'
@@ -64,6 +66,10 @@ margin-top:64px;
   margin-top: 32px;
   }
 
+
+/** Style des bandes **/ 
+
+
 .bande-rouge {
 
   margin-top: 10px;
@@ -92,6 +98,9 @@ margin-top:64px;
   background-color: #6236ff;
 
  }
+
+
+/** Régagle du squelette de ma page **/ 
 
 .boxdroite{
     background: linear-gradient(#fcce00, transparent) left repeat, url(bitmap.png);
@@ -196,13 +205,15 @@ mix-blend-mode: darken; }
       }
 
 
+/** Réglage de l'arrière plan du bas de page **/
+
 .bas-de-page {
 
   background: #231f20;
 }
 
 
-
+/** Régagle des boutons **/
 
 .bouton { 
 align-content: right;
@@ -373,3 +384,9 @@ max-width:90%;
   grid-gap:34px;
   padding:20px;
 } 
+
+
+/** TEST RESPONSIVE 
+
+BUG POUR LE RESPONSIVE, ça ne touche pas uniquement le format mobile mais aussi le format Laptot :/ **/ 
+
