@@ -1,24 +1,10 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
-
-
-
 body {
   font-family: 'Poppins'
 }
 
-
-
-
-
-
-
-
 p{font-size: 16px;}
+
 
 .bande-titre {
   width: 100% ; 
@@ -45,7 +31,7 @@ p{font-size: 16px;}
   align-items: center;
  }
 
- .section-titre2 {
+.section-titre2 {
 
   margin-top: 67px;
   margin-bottom: 0px;
@@ -54,13 +40,14 @@ p{font-size: 16px;}
   text-align: center;
  }
 
- .sous-titre { 
+.sous-titre { 
   font-weight: bold;
   font-size: 25px;
   text-align: center;
   margin-bottom: 35px ; }
 
-  .sous-titre3 { 
+
+.sous-titre3 { 
 margin-top:64px;
         margin-bottom: 0px;
         color: white;
@@ -68,7 +55,7 @@ margin-top:64px;
         text-align: left;
    }
 
-   .titre4 {
+.titre4 {
     font-size: 40px;
   text-align: center;
   font-weight: 900;
@@ -77,7 +64,7 @@ margin-top:64px;
   margin-top: 32px;
   }
 
- .bande-rouge {
+.bande-rouge {
 
   margin-top: 10px;
   margin-bottom: 0px;
@@ -86,7 +73,7 @@ margin-top:64px;
   background-color: #e02020
  }
 
- .bande-violette { 
+.bande-violette { 
 
   margin-top: 10px ; 
   margin-bottom: 0px;
@@ -96,7 +83,7 @@ margin-top:64px;
 
  }
 
- .bande-bleu {
+.bande-bleu {
 
   margin-top: 10px;
   margin-bottom: 0px;
@@ -106,7 +93,7 @@ margin-top:64px;
 
  }
 
-  .boxdroite{
+.boxdroite{
     background: linear-gradient(#fcce00, transparent) left repeat, url(bitmap.png);
     justify-content: flex-end;
     flex-basis: 0;
@@ -116,12 +103,13 @@ margin-top:64px;
     align-items: center;
   }
   
-  .boxdroite img {
+
+.boxdroite img {
     mix-blend-mode: darken; 
 
     }
 
-     .boxdroite2 {
+.boxdroite2 {
     text-align: justify;
     margin-right: 32px;
     flex-basis: 0;
@@ -144,16 +132,14 @@ mix-blend-mode: darken; }
 
 
 
-    .boxgauche {
+.boxgauche {
       text-align: justify;
       margin-right: 32px;
       flex-basis: 0 ;
       flex-grow: 1;
     }
 
-
-
-     .boxgauche2{
+.boxgauche2{
     background: linear-gradient(#ff6b00, transparent) left repeat, url(bitmap2.png);
     justify-content: center;
     display: flex;
@@ -230,7 +216,7 @@ float: right;
  }
 
 
- .bouton2 { 
+.bouton2 { 
    align-content:right;
     border: 2px solid #ff6b00;
     padding: 15px;
@@ -242,7 +228,7 @@ float: right;
      }
 
 
-     .bouton3{
+.bouton3{
     align-content:right;
     border: 2px solid white;
     padding: 15px;
@@ -253,20 +239,21 @@ float: right;
     float: left;
      }
 
-
+/** Formulaire de Contact Terminé  **/
 
 #contact h1 { margin-top: 0px;
               padding-top: 65px;
               text-align: center; 
               color: white;}
 
- #contact .row   {
+#contact .row   {
 display: flex;
 justify-content: center;
 
    }
 
-   #contact { background-color: #231f20; }
+
+#contact { background-color: #231f20; }
 
 
 .form-row {
@@ -313,23 +300,21 @@ background-color: #ffffff;
 border: none; }
 
 
-
+/** Réglage du end space après le formulaire de contact **/
 
 
 .end-space { height: 200px; }
 
 
-
-
-
+/** Réglage du Hover et du Game Container Terminé **/
 
 .game{
   position:relative;
   text-align:center;
 }
 
-.img-game{
-max-width:80%;
+.image-game{
+max-width:90%;
 }
 
 .game-content{
@@ -370,13 +355,7 @@ max-width:80%;
   color:white;
 }
 
-
-
-/** TEST POUR LE HOVER SUR LES IMAGES **/ 
-
-
-
-.container-releases{
+.container-bitmap{
   background-color:#231f20;
 }
 
@@ -393,4 +372,4 @@ max-width:80%;
   grid-template-columns:1fr 1fr 1fr 1fr;
   grid-gap:34px;
   padding:20px;
-}
+} 
